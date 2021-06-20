@@ -1,0 +1,7 @@
+*.csv
+*.h5
+*.dat
+__pycache__/*
+.vscode/*
+/mnist_example/MNIST/raw/*
+!**.gitkeep
