@@ -5,3 +5,4 @@ __pycache__/*
 .vscode/*
 /mnist_example/MNIST/raw/*
 !**.gitkeep
+**.pt
