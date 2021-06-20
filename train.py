@@ -51,7 +51,7 @@ model.to(device)
 
 # Using Adam optimizer to optimize weights of the Neural Network
 optimizer = optim.Adam(model.parameters(), lr =0.001)
-nEpoch = 30
+nEpoch = 50
 train_loss = np.zeros(nEpoch)
 test_loss = np.zeros(nEpoch)
 

@@ -10,7 +10,7 @@ model.eval()
 
 data = UIUCAirfoilDatabase.lookupUIUCData('NACA_0021.csv', 200000,9)
 #data = UIUCAirfoilDatabase.lookupUIUCData('NACA_0018.csv', 200000,9)
-data = UIUCAirfoilDatabase.lookupUIUCData('E210__(13_64%)_______________.csv', 200000,9)
+#data = UIUCAirfoilDatabase.lookupUIUCData('E210__(13_64%)_______________.csv', 200000,9)
 
 pts =  data['pts']
 pts = groupBatch([pts], pts.shape[0])[0][0]
